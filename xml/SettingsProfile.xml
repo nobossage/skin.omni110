@@ -147,7 +147,7 @@
                     <height>60</height>
                     <align>right</align>
                     <font>font30</font>
-                    <label>[UPPERCASE]$INFO[System.ProfileName][/UPPERCASE]</label>
+                    <label>$INFO[System.ProfileName]</label>
                 </control>
             </control>
             <include>Submenu</include>

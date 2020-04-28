@@ -361,7 +361,7 @@
                 <height>80</height>
                 <font>font36</font>
                 <align>center</align>
-                <label>$INFO[ListItem.SortLetter,[UPPERCASE],[/UPPERCASE]]</label>
+                <label>$INFO[ListItem.SortLetter,,]</label>
                 <visible>Container.Scrolling + [String.IsEqual(Container.SortMethod,$LOCALIZE[369]) | String.IsEqual(Container.SortMethod,$LOCALIZE[551]) | [Container.Content(artists) + String.IsEqual(Container.SortMethod,$LOCALIZE[557])]]</visible>
                 <visible>[!Window.IsVisible(volumebar) + !Window.IsVisible(busydialog) + !Control.IsVisible(12345) + [!Window.IsVisible(extendedprogressdialog) | Window.IsVisible(script-globalsearch-main.xml)]] | [Player.Muted + !Window.IsVisible(extendedprogressdialog) + !Window.IsVisible(busydialog) + !Control.IsVisible(12345)]</visible>
             </control>
@@ -420,7 +420,7 @@
                 <height>80</height>
                 <font>font36</font>
                 <align>center</align>
-                <label>$INFO[ListItem.SortLetter,[UPPERCASE],[/UPPERCASE]]</label>
+                <label>$INFO[ListItem.SortLetter,,]</label>
                 <visible>Container.Scrolling + [String.IsEqual(Container.SortMethod,$LOCALIZE[369]) | String.IsEqual(Container.SortMethod,$LOCALIZE[551]) | [Container.Content(artists) + String.IsEqual(Container.SortMethod,$LOCALIZE[557])]]</visible>
                 <visible>[!Window.IsVisible(volumebar) + !Window.IsVisible(busydialog) + !Control.IsVisible(12345) + [!Window.IsVisible(extendedprogressdialog) | Window.IsVisible(script-globalsearch-main.xml)]] | [Player.Muted + !Window.IsVisible(extendedprogressdialog) + !Window.IsVisible(busydialog) + !Control.IsVisible(12345)]</visible>
             </control>
@@ -937,7 +937,6 @@
         <font>
             <name>lyr2</name>
             <filename>lyrics/Luckiest Guy.ttf</filename>
-            <style>uppercase</style>
             <linespacing>0.9</linespacing>
             <size>130</size>
         </font>
@@ -990,19 +989,16 @@
         </font>
         <font>
             <name>lyr6</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>110</size>
         </font>
         <font>
             <name>lyr6a</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>165</size>
         </font>
         <font>
             <name>lyr6b</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>220</size>
         </font>
@@ -1053,19 +1049,16 @@
         </font>
         <font>
             <name>lyr10</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>170</size>
         </font>
         <font>
             <name>lyr10b</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>145</size>
         </font>
         <font>
             <name>lyr10c</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>120</size>
         </font>
@@ -1130,19 +1123,16 @@
         </font>
         <font>
             <name>lyr14</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>130</size>
         </font>
         <font>
             <name>lyr14b</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>150</size>
         </font>
         <font>
             <name>lyr14c</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>170</size>
         </font>
@@ -1179,19 +1169,16 @@
         </font>
         <font>
             <name>lyr17</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>110</size>
         </font>
         <font>
             <name>lyr17a</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>165</size>
         </font>
         <font>
             <name>lyr17b</name>
-            <style>uppercase</style>
             <filename>lyrics/Luckiest Guy.ttf</filename>
             <size>220</size>
         </font>

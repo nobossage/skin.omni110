@@ -325,7 +325,7 @@
                         <width>470</width>
                         <height>80</height>
                         <label>$LOCALIZE[21448]</label>
-                        <label2>[UPPERCASE]$INFO[VideoPlayer.SubtitlesLanguage][/UPPERCASE]</label2>
+                        <label2>$INFO[VideoPlayer.SubtitlesLanguage]</label2>
                         <textoffsetx>25</textoffsetx>
                         <onclick>CycleSubtitle</onclick>
                         <enable>VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled</enable>

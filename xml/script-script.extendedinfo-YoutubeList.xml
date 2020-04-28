@@ -196,7 +196,7 @@
                         <include>ButtonCommonValues</include>
                     </control>
                     <control type="button" id="5006">
-                        <label>[UPPERCASE]$ADDON[script.extendedinfo 32066][/UPPERCASE]</label>
+                        <label>$ADDON[script.extendedinfo 32066]</label>
                         <include>ButtonCommonValues</include>
                     </control>
                     <control type="button" id="5008">

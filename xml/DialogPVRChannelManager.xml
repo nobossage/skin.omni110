@@ -159,7 +159,7 @@
                     <width>660</width>
                     <height>60</height>
                     <font>font14</font>
-                    <label>[UPPERCASE]$LOCALIZE[31511][/UPPERCASE]</label>
+                    <label>$LOCALIZE[31511]</label>
                     <textcolor>highlight</textcolor>
                     <textoffsetx>15</textoffsetx>
                 </control>-->
@@ -198,7 +198,7 @@
                     <width>660</width>
                     <height>60</height>
                     <font>font14</font>
-                    <label>[UPPERCASE]$LOCALIZE[31026][/UPPERCASE]</label>
+                    <label>$LOCALIZE[31026]</label>
                     <textcolor>highlight</textcolor>
                     <textoffsetx>15</textoffsetx>
                 </control>
