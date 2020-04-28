@@ -1,6 +1,6 @@
 <h1>OMNI202</h1>
 
-This is a skin fork for Kodi called OMNI202 for its omnipresent menus. Users of Mimic will recognize that it was the base for this skin. OMNI202 is much more streamlined, however, and doesn't have as many customisation options. Here's what you need to know:
+This is a fork of the OMNI skin for Kodi called OMNI202 for its omnipresent menus and 202 as a reference to the version it is based on. Users of Mimic will recognize that it was the base for OMNI. OMNI202 is much more streamlined than Mimic, however, and doesn't have as many customisation options. Here's what you need to know:
 
 - The main menu and submenus are accessible from every window. Press left from the main menu and everything will slide to the right, revealing the submenu.
 - The main menu and info dialog menus use icons only. Although it may not be absolutely clear at first what some options do, you will quickly figure out what they are.
