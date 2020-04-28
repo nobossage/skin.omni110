@@ -1,7 +1,7 @@
 ![banner](http://i.imgur.com/69kkmtA.jpg)
-<h1>OMNI</h1>
+<h1>OMNI202</h1>
 
-This is a skin for Kodi called OMNI for its omnipresent menus. Users of Mimic will recognize that it was the base for this skin. OMNI is much more streamlined, however, and doesn't have as many customization options. Here's what you need to know:
+This is a skin for Kodi called OMNI202 for its omnipresent menus. Users of Mimic will recognize that it was the base for this skin. OMNI202 is much more streamlined, however, and doesn't have as many customisation options. Here's what you need to know:
 
 - The main menu and submenus are accessible from every window. Press left from the main menu and everything will slide to the right, revealing the submenu.
 - The main menu and info dialog menus use icons only. Although it may not be absolutely clear at first what some options do, you will quickly figure out what they are.
@@ -12,8 +12,21 @@ If you would like to express your appreciation for this skin, please consider a 
 
 
 ***
+**OMNI202 1.0.0**
+by DaedalusBLN, based on skin.omni 2.0.2 commit 6aac4343e5
+https://github.com/braz96/skin.omni/tree/6aac4343e5e3bf83dd67ab482bff4de328994855
+
+Aim is to restore skinshortcuts functionality, with backported and future fixes.
+
+-Update addon.xml xbmc.gui dependency to v5.14.00
+-Update variables.xml to fix weather bug
+
+
+**OMNI changelogs follow**
+
 **2.0.2**
 - Removed selected item animations.
+- Update GlobalSearch to support v8.
 
 ***
 **2.0.1**

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.omni"
-  version="2.0.2"
-  name="Omni"
-  provider-name="braz">
+  id="skin.omni202"
+  version="1.0.0"
+  name="Omni202"
+  provider-name="braz, DaedalusBLN">
 	<requires>
-		<import addon="xbmc.gui" version="5.13.0"/>
+		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.images.studios.white" version="0.0.4"/>
 		<import addon="script.skinshortcuts" version="0.6.6"/>
 		<import addon="script.toolbox" version="1.0.0"/>
@@ -17,16 +17,16 @@
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Omni by braz</summary>
-		<summary lang="en_US">Omni by braz</summary>
-		<description lang="en_GB">A Kodi skin with an omnipresent menu.</description>
-		<description lang="en_US">A Kodi skin with an omnipresent menu.</description>
+		<summary lang="en_GB">Omni202, based on Omni v2.0.2 by braz</summary>
+		<summary lang="en_US">Omni202, based on Omni v2.0.2 by braz</summary>
+		<description lang="en_GB">A Kodi skin with an omnipresent customizable menu.</description>
+		<description lang="en_US">A Kodi skin with an omnipresent customizable menu.</description>
 		<platform>all</platform>
 		<license>CC BY-NC-SA 4.0</license>
 		<forum></forum>
 		<website></website>
 		<email></email>
-		<source>https://github.com/braz96/skin.omni</source>
+		<source>https://github.com/DaedalusBLN/skin.omni202</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -41,6 +41,6 @@
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 			<screenshot>resources/screenshot-10.jpg</screenshot>
 		</assets>
-		<news>2.0.2[CR]- Removed selected item animations.</news>
+		<news>1.0.0 forked from Omni 2.0.2 commit 6aac4343e5</news>
 	</extension>
 </addon>
