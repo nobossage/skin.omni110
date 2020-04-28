@@ -19,8 +19,10 @@ If you would like to express your appreciation for this skin, please consider a 
 ***
 **OMNI202 v1.0.0**
 - Test various commits to find a place to start and base the fork on.
+- Rollback to v2.0.2 version bump commit for script.skinshortcuts integration and working custom widgets.
 - Update addon.xml xbmc.gui dependency to v5.14.00
 - Update variables.xml to fix weather bug
+
 
 ***
 OMNI (pre-fork) changelogs below:
