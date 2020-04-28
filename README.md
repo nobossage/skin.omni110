@@ -10,7 +10,7 @@ This is a fork of the OMNI skin for Kodi called OMNI202 for its omnipresent menu
 Forked from OMNI by braz96, based on v2.0.2 commit 6aac4343e5
 https://github.com/braz96/skin.omni/tree/6aac4343e5e3bf83dd67ab482bff4de328994855
 
-Aim is to restore skinshortcuts functionality, with backported and personal future fixes.
+Aim is to restore script.skinshortcuts and custom widgets functionality, with backported and personal future fixes.
 
 
 If you would like to express your appreciation for this skin, please consider a donation to the XBMC Foundation. http://kodi.tv/contribute/donate/
@@ -22,8 +22,8 @@ If you would like to express your appreciation for this skin, please consider a 
 - Update addon.xml xbmc.gui dependency to v5.14.00
 - Update variables.xml to fix weather bug
 
-
-OMNI pre-fork changelogs below:
+***
+OMNI (pre-fork) changelogs below:
 
 ***
 **2.0.2**
