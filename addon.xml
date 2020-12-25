@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.omni202"
-  version="1.0.2"
-  name="Omni202"
-  provider-name="braz, DaedalusBLN">
+  id="skin.omni_N"
+  version="1.0.10"
+  name="Omni_N"
+  provider-name="braz, DaedalusBLN, Noble">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.images.studios.white" version="0.0.4"/>
@@ -26,7 +26,7 @@
 		<forum></forum>
 		<website></website>
 		<email></email>
-		<source>https://github.com/DaedalusBLN/skin.omni202</source>
+		<source>https://github.com/nobossage/skin.omni202</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
