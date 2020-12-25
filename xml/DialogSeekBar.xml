@@ -199,7 +199,7 @@
                 <top>238</top>
                 <width>1557</width>
                 <height>8</height>
-                <info>Player.ProgressCache</info>
+                <info>PVR.TimeshiftProgressBufferEnd</info>
                 <midtexture colordiffuse="44ffffff">osd/midtexture.png</midtexture>
             </control>
             <control type="progress">
@@ -207,7 +207,7 @@
                 <top>238</top>
                 <width>1557</width>
                 <height>8</height>
-                <info>Player.Progress</info>
+                <info>PVR.EpgEventProgress</info>
             </control>
             <control type="slider" id="401">
                 <left>333</left>
@@ -226,7 +226,7 @@
                 <width>1557</width>
                 <height>35</height>
                 <font>font12</font>
-                <label>$INFO[Player.Time]$INFO[Player.Duration, / ]</label>
+                <label>$INFO[PVR.EpgEventSeekTime]$INFO[PVR.EpgEventDuration, / ]</label>
             </control>
             <control type="label">
                 <top>248</top>
@@ -235,7 +235,7 @@
                 <height>35</height>
                 <font>font12</font>
                 <align>right</align>
-                <label>$INFO[Player.TimeRemaining]$INFO[Player.Duration, / ]</label>
+                <label>$INFO[PVR.EpgEventRemainingTime]$INFO[PVR.EpgEventDuration, / ]</label>
             </control>
             <control type="label">
                 <top>248</top>
@@ -244,7 +244,7 @@
                 <height>35</height>
                 <font>font12</font>
                 <align>center</align>
-                <label>$VAR[SeekLabelVar]</label>
+                <label>$INFO[VideoPlayer.StartTime] - $INFO[PVR.EpgEventFinishTime]</label>
             </control>
         </control>
         <control type="grouplist">
